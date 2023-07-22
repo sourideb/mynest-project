@@ -134,6 +134,31 @@
     border-bottom: 3px solid gray;
 }
 
+/* main section style */
+
+.picture-container{
+    display: flex;
+    /* border: 3px solid pink; */
+}
+
+.picture-container-div-elements{
+    margin: 10px;
+    padding: 10px;
+    /* border: 3px solid blueviolet; */
+    height: 320px;
+    width: 290px;
+}
+
+.picture-container-div-elements img{
+    height: 75%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.picture-container-div-elements:hover{
+    cursor: pointer;
+}
+
 .caption {
     font-size: 14px;
     color: #333;

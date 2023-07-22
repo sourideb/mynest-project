@@ -3,9 +3,10 @@ let selectedOption = 'a'; // Set Option A as the default selected option
 document.addEventListener('DOMContentLoaded', function() {
   const defaultOption = document.getElementById('category-section-div1');
   defaultOption.classList.add('selected');
+  showPictures('a');
 });
 
-function selectOption(event, option) {
+function selectOption(event) {
   event.preventDefault();
 
   const currentElement = event.target;         //.parentElement.parentElement;
@@ -24,8 +25,6 @@ function selectOption(event, option) {
   }
   
   // currentElement.classList.add('selected');
-  // selectedOption = option;
-
 
   // if (currentElement.classList.contains('category-section') || (currentElement === document.body)) {
   //   // 'currentElement' is a <div> with class 'category-section'
