@@ -1,3 +1,3 @@
-# airbnb-website-clone
+# Hotel Rental System
 ### Here is the link to the website
-https://sourideb.github.io/airbnb-website-clone/
+https://sourideb.github.io/mynest-project/
